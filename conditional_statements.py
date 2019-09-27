@@ -37,12 +37,31 @@
 # else:
 #     print('Nothing for you!!')
 
-age = input("How old are you?")
+# age = input("How old are you?")
+#
+# if age != "":
+#     if int(age) >= 18 and int(age) < 21:
+#         print("You are old enough to get drunk!!")
+#     elif int(age) < 18:
+#         print("Please go home")
+# else:
+#     print("Please insert something")
 
-if age != "":
-    if int(age) >= 18 and int(age) < 21:
-        print("You are old enough to get drunk!!")
-    elif int(age) < 18:
-        print("Please go home")
-else:
-    print("Please insert something")
+
+# username = "chukwuma"
+# password = "123456"
+#
+# user = input('insert username:')
+#
+#
+# if user == username:
+#     print('Username correct')
+#     pword = input('insert password: ')
+#
+#     if pword == password:
+#         print("Your login details correct!!")
+#         print("Username: " + username)
+#         print("Password: " + password)
+#
+# else:
+#     print("Wrong Username! Try again")
