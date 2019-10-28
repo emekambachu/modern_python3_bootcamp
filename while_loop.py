@@ -1,3 +1,5 @@
+# WHILE LOOP IS LIKE THE COMBINATION OF IF STATEMENT AND FOR LOOP
+
 # msg = input("what is the secret password?:")
 #
 # while msg != "bananas":
@@ -28,10 +30,26 @@
 
 
 # without string multiplication
-for num in range(1, 11):
-    count = 1
-    smileys = ""
-    while count <= num:
-        smileys += "\U0001f600"
-        count += 1
-    print(smileys)
+# for num in range(1, 11):
+#     count = 1
+#     smileys = ""
+#     while count <= num:
+#         smileys += "\U0001f600"
+#         count += 1
+#     print(smileys)
+
+
+employee = {
+    "username": "username",
+    "password": "password"
+}
+
+username = input("Insert Username: ")
+password = input("Insert password: ")
+
+while employee["username"] != username or employee["password"] != password:
+    print("username or password is incorrect")
+    username = input("Insert Username: ")
+    password = input("Insert password: ")
+else:
+    print("Access granted")
