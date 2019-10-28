@@ -19,9 +19,11 @@ employee_salary = {
     "Prevail": 800000,
 }
 
+
 def pension(s):
    x = 15/100 * int(s)
    return x
+
 
 for x, y in employee_salary.items():
         print(f"{x} earns ${y}, so their pension is {pension(y)}")
